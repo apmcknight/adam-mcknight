@@ -12,6 +12,14 @@ sections:
 - type: document
   path: content/data/info.json
   label: About
+- type: directory
+  path: projects
+  label: Projects
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - projects
 - type: heading
   label: Content
 - type: directory
