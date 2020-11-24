@@ -13,7 +13,7 @@ sections:
   path: content/data/info.json
   label: About
 - type: directory
-  path: projects
+  path: content/projects
   label: Projects
   create: documents
   match: "**/*"
