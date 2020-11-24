@@ -3,8 +3,7 @@ import Layout from "../components/Layout"
 import blogTemplateStyles from "../styles/templates/blog.module.scss"
 import Img from 'gatsby-image'
 
-export default function Blog(props) {
-   
+export default function Blog() {
 
   return (
     <Layout>

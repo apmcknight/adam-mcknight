@@ -1,13 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 import "tailwindcss/tailwind.css"  
 import Privacy from "./privacyAlert"
 import Footer from "../components/Footer"
-import HeroImg from "../../content/images/maksim-shutov-JOEvZOTfp64-unsplash.jpg"
-import { graphql, Link } from "gatsby"
-import useHomeData from '../static_queries/useHomeData'
- 
+import Img from 'gatsby-image'
+import HeroImage from '../../content/images/hero/hero.jpg'
 export default function BlogList() {
+    
     return (
       <div>
         <div class="relative bg-white overflow-hidden">
@@ -43,16 +41,13 @@ export default function BlogList() {
             </div>
           </div>
           <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          
-          {/* WIRRE THIS UP TO WORK WHERE YOU CAN UPDATE THE HERO PHOTO IN THE CMS! */}
-          {/* <Img 
-            class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-            fluid={data.frontmatter.hero_image.childImageSharp.fluid}
-            alt={data.frontmatter.title}
-          /> */}
-           <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src={HeroImg} alt="Hero Image"/>
+           <img 
+           class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" 
+           src={HeroImage} 
+           alt="Hero Image"/>
+
           </div>
-</div>
+        </div>
 
         
         <Privacy/>
