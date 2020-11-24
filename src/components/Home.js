@@ -2,8 +2,7 @@ import React from "react"
 import "tailwindcss/tailwind.css"  
 import Privacy from "./privacyAlert"
 import Footer from "../components/Footer"
-import Img from 'gatsby-image'
-import HeroImage from '../../content/images/hero/hero.jpg'
+import HeroImage from '../../content/images/hero/hero.png'
 export default function BlogList() {
     
     return (
@@ -41,10 +40,10 @@ export default function BlogList() {
             </div>
           </div>
           <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-           <img 
-           class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" 
-           src={HeroImage} 
-           alt="Hero Image"/>
+          <img 
+          class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" 
+          src={HeroImage} 
+          alt="Hero Image"/>
 
           </div>
         </div>
