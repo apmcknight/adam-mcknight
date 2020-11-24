@@ -1,14 +1,24 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTimesCircle,faBell } from '@fortawesome/free-solid-svg-icons'
 
 export default function privacy(){
     return(
     <section class="fixed bottom-0 left-50">
     <div class="p-5">
-        <div class="shadow-2xl inline-flex items-center bg-indigo-600 leading-none text-purple-600 rounded-full p-2 shadow text-teal text-sm">
-        <h2><span class="inline-flex bg-indigo-600 text-white rounded-full h-6 px-3 justify-center items-center">LEGAL NOTICE:</span></h2>
-        <span class="inline-flex px-2">Read your Privacy Rights &amp; Our Terms <Link class="pl-3 pr-3"to="/legal">here</Link></span>
+        <div class="shadow-2xl flex items-center bg-black leading-none text-purple-600 rounded-full p-2 text-sm">
+        <h1>
+            <FontAwesomeIcon class="inline-flex h-3 pl-3" icon={faBell} />
+            <span class="inline-flex rounded-full h-6 pl-2 justify-center items-center">PRIVACY NOTE &nbsp;&mdash;</span>
+        </h1>
+        <h2 class="flex px-2">
+            Read your Privacy Rights &amp; Our Terms
+            <Link class="pl-3 pr-3"to="/legal">here</Link>
+        </h2>
+        
+        <FontAwesomeIcon class="absolute right-4 top-5 w-5" icon={faTimesCircle} />
+
         </div>
     </div>
   </section>
