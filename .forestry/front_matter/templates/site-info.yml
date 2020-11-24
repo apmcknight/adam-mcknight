@@ -16,6 +16,6 @@ fields:
   label: index_hero_image
   config:
     maxSize: 64
-  default: "/content/images/hero/hero.jpg
+  default: "/content/images/hero/hero.jpg"
 pages:
 - config.json
