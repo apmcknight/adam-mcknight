@@ -1,16 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
-import useBlogData from "../static_queries/useBlogData"
+// import { Link } from "gatsby"
 
 import blogListStyles from "../styles/components/bloglist.module.scss"
-import Img from 'gatsby-image'
-
+ 
 export default function BlogList() {
-  const blogData = useBlogData()
-  function renderBlogData() {
+   function renderBlogData() {
     return (
       <div>
         <h1>Hello, World!</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus perferendis neque, itaque corrupti porro ad ratione? Soluta voluptas expedita nisi illo optio dolor eos! Illum, eaque quisquam rem natus voluptas culpa at animi quaerat magni amet soluta quo dignissimos labore obcaecati dolorum facilis asperiores suscipit, odio blanditiis quae nihil? Sunt.
+        </p>
         {/* {blogData
           .filter(blog => blog.node.frontmatter.title !== "")
           .map(blog => {
