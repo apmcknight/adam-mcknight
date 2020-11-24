@@ -1,4 +1,36 @@
 ---
-label: Projects
+label: Project Post
 hide_body: false
-fields: []
+fields:
+- name: project_title
+  type: text
+  config:
+    required: false
+  label: Project Title
+- name: project_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Project Description
+- name: project_photos
+  type: image_gallery
+  config: {}
+  label: Project Photos
+- name: live_project_link
+  type: text
+  config:
+    required: false
+  label: Live Project Link
+- name: project_github_repo
+  type: text
+  config:
+    required: false
+  label: Project GitHub Repo
+- name: related_projects
+  type: tag_list
+  default: []
+  label: Related Projects
