@@ -2,7 +2,7 @@
 related_projects:
 - TAG DEMO
 project_title: Test Project
-project_description: ''
+project_description: 'description here'
 project_photos:
 - "/content/images/sonja-punz-N47B_zibNGo-unsplash.jpg"
 live_project_link: www.adam.mcknight.digital

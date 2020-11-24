@@ -9,21 +9,15 @@ export default function useBlogData() {
             id
             frontmatter {
               project_title
-              project_description
-              project_photos {
-                childImageSharp {
-                  fluid( maxWidth: 800 ) {
-                    ...GatsbyImageSharpFluid
+                project_photos {
+                  childImageSharp {
+                    fluid( maxWidth: 800 ) {
+                      ...GatsbyImageSharpFluid
+                    }
                   }
-                }
               }
-              live_project_link
-              project_github_repo
-              tag_list
-            }
-            excerpt(pruneLength: 200)
-            fields {
-              slug
+            live_project_link
+            project_github_repo
             }
           }
         }
