@@ -35,4 +35,4 @@ fields:
   default: []
   label: Related Projects
 pages:
-- projects/testproject.md
+- content/projects/test.md
