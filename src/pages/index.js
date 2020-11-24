@@ -7,7 +7,7 @@ import "tailwindcss/tailwind.css"
 
 export default function IndexPage() {
   return (
-    <Layout page="home" bgColor="inherit">
+    <Layout class ="dark:bg-gray-800" page="home" bgColor="inherit">
       <section>
         <Home />
       </section>

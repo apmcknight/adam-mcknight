@@ -1,0 +1,10 @@
+---
+label: Home
+hide_body: false
+fields:
+- name: hero_image
+  type: file
+  config:
+    maxSize: 64
+  label: Hero Image
+  description: Image shown in the pages hero section.
