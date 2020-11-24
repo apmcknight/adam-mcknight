@@ -7,15 +7,6 @@ fields:
   config:
     required: false
   label: Project Title
-- name: project_description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Project Description
 - name: project_photos
   type: image_gallery
   config: {}
@@ -30,9 +21,5 @@ fields:
   config:
     required: false
   label: Project GitHub Repo
-- name: related_projects
-  type: tag_list
-  default: []
-  label: Related Projects
 pages:
 - content/projects/test.md
