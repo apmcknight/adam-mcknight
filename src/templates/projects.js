@@ -55,7 +55,6 @@ export const getProjectData = graphql`
       
       frontmatter {
         project_title
-        project_description
         project_photos {
           childImageSharp {
             fluid( maxWidth: 800 ) {
@@ -65,7 +64,6 @@ export const getProjectData = graphql`
         }
         live_project_link
         project_github_repo
-        tag_list
       }
       excerpt(pruneLength: 200)
       fields {
