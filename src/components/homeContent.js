@@ -23,6 +23,7 @@ export default function HomeContent() {
             
             <div class="mr-10 sm:text-center lg:text-center">
               <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-justify">
+                hello there this is a test
                 <div dangerouslySetInnerHTML={{__html: homeData.home_content_1}}></div>
               </p>
             </div>
