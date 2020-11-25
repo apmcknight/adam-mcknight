@@ -7,8 +7,8 @@ export default function Footer() {
    return(
      <div class="relative">
         <div class="bg-gray-100">
-          <div class="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
-              <div class="pt-24 pb-24 pr-24 w-30">
+          <div class="pl-20 lg:pl-0 max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
+              <div class="pt-24 pb-24 pr-24 w-30 ">
                 <p>
                   Site was developed using Gatsby, Tailwind, and Forestry CMS.
                 </p>

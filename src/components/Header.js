@@ -9,8 +9,8 @@ export default function Header() {
 
       <div class="pt-5 mb-10 sm:mb-0 flex flex-row">
         <div>
-          <Link to="/" class="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold">
-            <img class="h-12 w-15 self-center" src={logo} />
+          <Link to="/" class="text-2xl sm:text-center no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold">
+            <img class="h-5 w-15 pr-5  self-left" src={logo} />
           </Link>
         </div>
       </div>
