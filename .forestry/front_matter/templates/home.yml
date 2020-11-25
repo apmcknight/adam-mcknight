@@ -2,9 +2,13 @@
 label: Home
 hide_body: false
 fields:
-- name: hero_image
-  type: file
+- name: home_content
+  type: textarea
+  default: ''
   config:
-    maxSize: 64
-  label: Hero Image
-  description: Image shown in the pages hero section.
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Home Content
+  description: Copy that is in the paragraph on the index page.
