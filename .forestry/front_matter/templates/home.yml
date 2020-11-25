@@ -8,6 +8,13 @@ fields:
   config:
     required: false
   label: Home Header
+  description: Header that's listed in the top section
+- name: home_content_header
+  type: text
+  config:
+    required: false
+  label: Home Content Header
+  description: Header that's listed above the paragraph
 - name: home_content
   type: textarea
   default: ''
@@ -17,6 +24,7 @@ fields:
     schema:
       format: markdown
   label: Home Content
+  description: First Paragraph Content
 - name: home_content_1
   type: textarea
   default: ''
@@ -26,6 +34,6 @@ fields:
     schema:
       format: markdown
   label: Home Content 1
-  description: Content that goes into the second paragraph on the Home page.
+  description: Second paragraph content
 pages:
 - content/data/home.json
