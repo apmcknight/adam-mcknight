@@ -18,6 +18,9 @@ export default function useSiteMetadata() {
             description
             background_color
           }
+          homeData {
+            home_content
+          }
         }
       }
     }
