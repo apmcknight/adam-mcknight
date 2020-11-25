@@ -3,13 +3,10 @@ import "tailwindcss/tailwind.css"
 import Privacy from "./privacyAlert"
 import Footer from "../components/Footer"
 import HeroImage from '../../content/images/hero.png'
-import {graphql, Link} from "gatsby"
-import useBlogData from '../static_queries/useBlogData'
+import HomeContent from '../components/homeContent'
 
 export default function Home(props) {
   
-    // const data = props.data.markdownRemark
-    // const allBlogData = useBlogData()
     
     return (
       <div>
@@ -51,27 +48,7 @@ export default function Home(props) {
           </div>
         </div>
 
-
-
-        <div class="relative bg-white overflow-hidden">
-          <div class="flex justify-center max-w-10xl mx-auto ">
-            <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-4xl lg:w-full lg:pb-28 xl:pb-32">
-              <main class="flex flex-wrap-justify-center mt-10 mx-auto max-w-2xl px-10 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-                <div class="mr-10 sm:text-center lg:text-center">
-                  <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-justify">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui perspiciatis laudantium alias velit sed minus sunt officiis veniam. In neque facilis nihil ut veritatis fugit dolorem quas ea quasi, quibusdam perferendis recusandae alias, ad, accusamus impedit mollitia sapiente facere illum? Aliquam maiores totam provident ducimus. Laudantium iste corrupti molestiae fuga nostrum! Repellat fuga eaque numquam? Quos harum consequatur eos tempore consequuntur quod repudiandae iure nisi asperiores hic, debitis laboriosam quia libero, alias distinctio voluptatum recusandae ab nulla cumque, sequi ducimus enim! Eius nemo, unde illo ex quos repudiandae commodi deleniti, laudantium quia natus quo beatae totam reiciendis eaque aut similique cum quisquam quae vel eveniet delectus. Animi fuga magni voluptatem fugiat nostrum illum ipsum veniam, at saepe placeat beatae cumque doloremque aliquam. Commodi, natus? Sint voluptate quas necessitatibus corporis suscipit tempore, atque et porro molestiae nesciunt iste sunt iure sit itaque reiciendis error delectus eveniet quod maiores aut eius illum.
-                  </p>
-                </div>
-                
-                
-              </main>
-              
-            </div>
-            
-          </div>
-        </div>
-
-        
+        <HomeContent/>
         <Privacy/>
         <Footer/>
 

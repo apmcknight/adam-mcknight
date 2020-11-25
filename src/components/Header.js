@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import logo from "../../content/images/store-brand-primary.png"
 
+
 export default function Header() {
   return (
     <nav class="font-sans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-6 bg-white shadow sm:items-baseline w-full">
