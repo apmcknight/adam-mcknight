@@ -17,7 +17,7 @@ fields:
     schema:
       format: markdown
   label: Home Content
-- name: home_content_2
+- name: home_content_1
   type: textarea
   default: ''
   config:
@@ -25,7 +25,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Home Content 2
+  label: Home Content 1
   description: Content that goes into the second paragraph on the Home page.
 pages:
 - content/data/home.json
