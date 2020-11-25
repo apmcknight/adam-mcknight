@@ -59,7 +59,7 @@ export default function Home(props) {
               <main class="flex flex-wrap-justify-center mt-10 mx-auto max-w-2xl px-10 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                 <div class="mr-10 sm:text-center lg:text-center">
                   <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-justify">
-                  
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui perspiciatis laudantium alias velit sed minus sunt officiis veniam. In neque facilis nihil ut veritatis fugit dolorem quas ea quasi, quibusdam perferendis recusandae alias, ad, accusamus impedit mollitia sapiente facere illum? Aliquam maiores totam provident ducimus. Laudantium iste corrupti molestiae fuga nostrum! Repellat fuga eaque numquam? Quos harum consequatur eos tempore consequuntur quod repudiandae iure nisi asperiores hic, debitis laboriosam quia libero, alias distinctio voluptatum recusandae ab nulla cumque, sequi ducimus enim! Eius nemo, unde illo ex quos repudiandae commodi deleniti, laudantium quia natus quo beatae totam reiciendis eaque aut similique cum quisquam quae vel eveniet delectus. Animi fuga magni voluptatem fugiat nostrum illum ipsum veniam, at saepe placeat beatae cumque doloremque aliquam. Commodi, natus? Sint voluptate quas necessitatibus corporis suscipit tempore, atque et porro molestiae nesciunt iste sunt iure sit itaque reiciendis error delectus eveniet quod maiores aut eius illum.
                   </p>
                 </div>
                 
