@@ -20,6 +20,8 @@ export default function useSiteMetadata() {
           }
           homeData {
             home_content
+            home_content_1
+            home_header
           }
         }
       }
