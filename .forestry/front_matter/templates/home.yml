@@ -12,6 +12,5 @@ fields:
     schema:
       format: markdown
   label: Home Content
-  description: Copy that is in the paragraph on the index page.
 pages:
 - content/data/home.json
