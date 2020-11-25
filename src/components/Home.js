@@ -4,9 +4,11 @@ import Privacy from "./privacyAlert"
 import Footer from "../components/Footer"
 import HeroImage from '../../content/images/hero.png'
 import HomeContent from '../components/homeContent'
+import useSiteMetaData from "../static_queries/useSiteMetadata"
 
 export default function Home(props) {
-  
+  const { homeData } = useSiteMetaData()
+
     
     return (
       <div>
@@ -17,11 +19,7 @@ export default function Home(props) {
 
               <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                 <div class="sm:text-center lg:text-left">
-                  <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                  ADAM
-                  </h1>
-                  <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                  MCKNIGHT
+                  <h1 dangerouslySetInnerHTML={{__html: homeData.home_header}} class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                   </h1>
                   <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                     <div class="rounded-md shadow">
