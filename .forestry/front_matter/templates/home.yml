@@ -1,6 +1,6 @@
 ---
 label: Home
-hide_body: false
+hide_body: true
 display_field: home_content
 fields:
 - name: home_content
