@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import NewBadge from "./NewBadge"
 
  
 export default function Footer() {
@@ -18,12 +19,13 @@ export default function Footer() {
               </div>
               <div class="pt-16 w-48">
                 <div class="text-xs uppercase text-gray-500 font-medium">Site Map</div>
-                <a class="my-3 block" href="/">Home <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/about">About <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/blog">Writing <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/projects">Projects <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/contact">Contact <span class="text-teal-600 text-xs p-1">New</span></a> 
+                <a class="my-3 block" href="/">Home <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/about">About <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/blog">Writing <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/projects">Projects <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/contact">Contact</a> 
+                <a class="my-3 block" href="/uses">Uses<NewBadge/></a>
               </div>
               
               <div class="pt-16 w-48">
-                <div class="text-xs uppercase text-gray-500 font-medium">Site Refrences</div>
-                <a class="my-3 block" href="/#">Documentation <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/#">Tutorials <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/#">Support <span class="text-teal-600 text-xs p-1">New</span></a> 
+                <div class="text-xs uppercase text-gray-500 font-medium">Site References</div>
+                <a class="my-3 block" href="/#">Documentation <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/#">Licencees<span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/#">Code<span class="text-teal-600 text-xs p-1">New</span></a> 
               </div>
               <div class="pt-16 w-48">
                 <div class="text-xs uppercase text-gray-500 font-medium">Social Links</div>
