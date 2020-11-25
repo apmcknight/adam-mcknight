@@ -1,6 +1,7 @@
 ---
 label: Home
 hide_body: false
+display_field: home_content
 fields:
 - name: home_content
   type: textarea
