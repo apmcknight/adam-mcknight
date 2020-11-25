@@ -12,7 +12,7 @@ export default function HomeContent() {
       <div class="flex justify-center max-w-10xl mx-auto ">
         <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-4xl lg:w-full lg:pb-28 xl:pb-32">
           
-          <h1 dangerouslySetInnerHTML={{__html: homeData.home_header}}></h1>
+          <h1 style={{color: "black;"}} dangerouslySetInnerHTML={{__html: homeData.home_header}}></h1>
 
           <main class="flex flex-wrap-justify-center mt-10 mx-auto max-w-5xl px-10 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div class="mr-10 sm:text-center lg:text-center">
