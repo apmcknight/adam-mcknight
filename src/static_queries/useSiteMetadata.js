@@ -23,7 +23,6 @@ export default function useSiteMetadata() {
             home_content_1
             home_header
             home_content_header
-
           }
         }
       }

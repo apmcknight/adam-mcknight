@@ -1,6 +1,4 @@
 import React from "react"
-import Layout from "./Layout"
-import infoStyles from "../styles/pages/info.module.scss"
 import useSiteMetaData from "../static_queries/useSiteMetadata"
 
 export default function HomeContent() {
@@ -17,19 +15,14 @@ export default function HomeContent() {
           <main class="flex flex-wrap-justify-left mx-auto sm:max-w-2xl lg:max-w-5xl px-10 sm:px-6 lg:px-8">
             
             <div class="lg:mr-10 sm:mr-0 sm:mb-10 sm:text-left lg:text-center">
-              <p style={{color: "#fff"}}class="text-base text-gray-500 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0 text-justify">
+              <p style={{color: "#fff"}} class="text-base text-gray-500 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0 text-justify">
                 <div dangerouslySetInnerHTML={{__html: homeData.home_content}}></div>
               </p>
               <p style={{color: "#fff"}} class="mt-7 text-base text-gray-500 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0 text-justify">
                  <div dangerouslySetInnerHTML={{__html: homeData.home_content_1}}></div>
               </p>
             </div>
-{/*             
-            <div class="md:mp-10 mr-10 sm:text-center lg:text-center">
-              <p class="text-base text-gray-500 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0 text-justify">
-                 <div dangerouslySetInnerHTML={{__html: homeData.home_content_1}}></div>
-              </p>
-            </div> */}
+
           </main>
 
           

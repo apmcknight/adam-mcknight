@@ -1,37 +1,31 @@
 import React from "react"
-import Layout from "../components/Layout"
-import infoStyles from "../styles/pages/info.module.scss"
 import useSiteMetaData from "../static_queries/useSiteMetadata"
+import PrivacyAlertBar from "../components/privacyAlert"
+import Header from "../components/Header"
+import Footer from "../components/Footer"
+import Logo from "../../content/images/mark-primary.png"
 
 export default function Info() {
-  const { infoData } = useSiteMetaData()
+  const { homeData } = useSiteMetaData()
   return (
-    <Layout page="info" bgColor={infoData.background_color}>
-      <section className={infoStyles.info_blurb}>
-        <h2>
-          <div dangerouslySetInnerHTML={{__html: infoData.description}}></div>
-          <div dangerouslySetInnerHTML={{__html: infoData.cta}}></div>
-        </h2>
-        <ul>
-          <li>
-            <p>
-              <a href={`mailto:${infoData.contact.email}`}>Email: {infoData.contact.email}</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a href={`https://twitter.com/${infoData.contact.twitter_handle}`}>
-                Twitter: @{infoData.contact.twitter_handle}
-              </a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a href={`https://github.com/${infoData.contact.github_handle}`}>Github: {infoData.contact.github_handle}</a>
-            </p>
-          </li>
-        </ul>
+    <main>
+      <Header/>
+
+      <section class="mt-10 mb-10">
+        <div className="text-center align-content-center">
+          <img class="h-auto w-60 ml-auto mr-auto" src={Logo} alt="Adam McKnight Typemark"/>
+          <h1 class="heading-text">This is Adam McKnight</h1>
+        </div>
       </section>
-    </Layout>
+
+      <section class="w-90 h-auto ml-auto mr-auto">
+        <div class="text-base sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0 text-justify">
+          <p class="mt-32 ml-9 mb-10" dangerouslySetInnerHTML={{__html: homeData.home_content}}></p>
+        </div>
+      </section>
+
+      <Footer/>
+      <PrivacyAlertBar/>
+    </main>
   )
 }
