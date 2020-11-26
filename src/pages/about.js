@@ -18,7 +18,7 @@ export default function Info() {
         </div>
       </section>
 
-      <section class="mt-10 mb-10">
+      <section class="mt-10 mb-32">
         <div className="text-justify align-content-center">
           <p class="about-header mt-52 ml-9 mb-10 h-auto w-4/5 lg:w-2/4 ml-auto mr-auto" dangerouslySetInnerHTML={{__html: infoData.description}}></p>
         </div>

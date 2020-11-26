@@ -13,9 +13,9 @@ export default function privacy(){
 
     return(
     <section class="fixed bottom-0 ml-5 md:ml-0 lg:ml-0 z-10">
-    <Fade triggerOnce duration={3000}>
+    <Fade triggerOnce duration={1000}>
     <div>
-        <Slide triggerOnce duration={1000}>
+        <Slide triggerOnce direction={"up"} duration={2000}>
             <div class="p-5">
                 <div style={{background: "#caae77", color: "#fff"}} class="shadow-2xl flex items-center leading-none sm:w-100 h-9 rounded-full sm:p-1 lg:p-2 text-sm">
                     <h1 style={{color: "#fff"}}>
