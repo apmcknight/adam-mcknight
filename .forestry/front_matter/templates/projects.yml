@@ -27,6 +27,7 @@ fields:
     required: false
   label: Slug
   description: URL The page will go to
+  default: "/projects/"
 - name: excerpt
   type: textarea
   default: ''
