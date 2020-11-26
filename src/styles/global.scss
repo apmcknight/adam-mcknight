@@ -12,6 +12,16 @@ body {
   font-size: 16px;
 }
 
+.blog-home-links > li h1{
+  font-style: normal;
+  letter-spacing: 5px;
+
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $primary-color;
+}
+
 a {
   font-family: "EB Garamond", serif;
   font-weight: 400;  
@@ -45,12 +55,15 @@ ul {
 //   padding-bottom: 15px;
 // }
 
+ 
+
 blockquote{
   padding-top: 50px;
   padding-bottom: 10px;
   font-size: 2em;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 5px;
   color: $primary-color;
 }
 
