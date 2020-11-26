@@ -40,6 +40,20 @@ ul {
   letter-spacing: 5px;
 }
 
+// .about-header p{
+//   padding-top: 15px;
+//   padding-bottom: 15px;
+// }
+
+blockquote{
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $primary-color;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: $primary-color;
   font-family:  "Montserrat", sans-serif;
