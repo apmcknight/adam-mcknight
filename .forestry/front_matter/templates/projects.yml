@@ -38,4 +38,5 @@ fields:
       format: markdown
   label: excerpt
 pages:
+- content/projects/covid-symptom-tracker.md
 - content/projects/test.md
