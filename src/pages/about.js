@@ -6,7 +6,7 @@ import Footer from "../components/Footer"
 import Logo from "../../content/images/mark-primary.png"
 
 export default function Info() {
-  const { homeData } = useSiteMetaData()
+  const { infoData } = useSiteMetaData()
   return (
     <main>
       <Header/>
@@ -18,11 +18,17 @@ export default function Info() {
         </div>
       </section>
 
-      <section class="w-90 h-auto ml-auto mr-auto">
-        <div class="text-base sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0 text-justify">
-          <p class="mt-32 ml-9 mb-10" dangerouslySetInnerHTML={{__html: homeData.home_content}}></p>
+      <section class="mt-10 mb-10">
+        <div className="text-justify align-content-center">
+          <p class="ml-9 mb-10 h-auto w-80 ml-auto mr-auto" dangerouslySetInnerHTML={{__html: infoData.description}}></p>
         </div>
       </section>
+
+      {/* <section>
+        <div class=" text-base sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0 text-justify">
+          <p class="ml-9 mb-10 h-auto w-60 ml-auto mr-auto" dangerouslySetInnerHTML={{__html: infoData.description}}></p>
+        </div>
+      </section> */}
 
       <Footer/>
       <PrivacyAlertBar/>
