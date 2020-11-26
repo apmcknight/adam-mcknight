@@ -21,5 +21,20 @@ fields:
   config:
     required: false
   label: Project GitHub Repo
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
+  description: URL The page will go to
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: excerpt
 pages:
 - content/projects/test.md
