@@ -1,31 +1,30 @@
 ---
-date: 2019-07-22T22:44:38Z
-title: Song of Myself
+date: 2019-07-22T22:44:38.000+00:00
+title: 'Tutorial: How to Push To GitHub'
 author: Ralph Waldo Emerson
 hero_image: "/content/images/ren-ran-bBiuSdck8tU-unsplash.jpg"
 
 ---
-I have heard what the talkers were talking, the talk of the  
- beginning and the end
+To push a to repository in GitHub, you must first need to have git version control installed on your system. To do this, visit [git-scm.com](http://git-scm.com/) to begin the install process.
 
-But I do not talk of the beginning or the end. There was never any more inception than there is now, Nor any more youth or age than there is now, And will never be any more perfection than there is now,  
- Nor any more heaven or hell than there is now.
+_As a side note: A repository is also commonly called and known as a “repo” for short._
 
-Urge and urge and urge, Always the procreant urge of the world.  
- Out of the dimness opposite equals advance, always substance and  
- increase, Always a knit of identity, always distinction, always a breed of life. To elaborate is no avail, learn’d and unlearn’d feel that it is  
- so.
+Once you have git installed and configured, navigate to the directory/folder/repo you want to push to GitHub.
 
-Clear and sweet is my soul, and clear and sweet is all that is not my soul.
+Once your in the directory, run the command:
 
-![](/content/images/igor-son-FV_PxCqgtwc-unsplash.jpg)
+| git add -A
 
-Lack one lacks both, and the unseen is proved by the seen,  
- Till that becomes unseen and receives proof in its turn.
+git add, allows you to add/stage files for pushing. The -A flag indicates you’re wanting to push all of the files within that repo/directory. You could also chose to stage single files, like index.html. To do this simply use the git add command with the file.
 
-Showing the best and dividing it from the worst age vexes age,  
- Knowing the perfect fitness and equanimity of things, while they discuss I am silent, and go bathe and admire myself.
+| git add index.html
 
-Welcome is every organ and attribute of me, and of any man hearty and clean, Not an inch nor a particle of an inch is vile, and none shall be less familiar than the rest.
+Once files are staged, you need to commit the changes. To do this use the command:
 
-I am satisfied—I see, dance, laugh, sing; As the hugging and loving bed-fellow sleeps at my side through the night, and withdraws at the peep of the day with stealthy tread. Leaving me baskets cover’d with white towels swelling the house with their plenty, Shall I postpone my acceptation and realization and scream at my eyes, That they turn from gazing after and down the road, And forthwith cipher and show me to a cent, Exactly the value of one and exactly the value of two, and which is ahead?
+| git commit
+
+Most commonly, developers use a commit message to briefly describe what the commit is about and what was changed. For Example: If the page title was changed to “Hello, World”. you may want to add a commit message like: “Changed the title to say Hello, World” You can do this by using the git commit command with a -m flag to add a message. For Example:
+
+| git commit -m "Changed page title to; Hello, World."
+
+Once your files are committed use the git push command or git push -u origin master; to push your changes to GitHub.
