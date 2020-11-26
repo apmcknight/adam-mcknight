@@ -36,6 +36,7 @@
     "postcss": "^8.1.10",
     "postcss-import": "^13.0.0",
     "react": "^16.13.1",
+    "react-awesome-reveal": "^3.5.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
     "typescript": "^3.9.5",

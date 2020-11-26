@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimesCircle,faBell } from '@fortawesome/free-solid-svg-icons'
+import { Fade, Bounce } from "react-awesome-reveal"
 
 export default function privacy(){
 
@@ -11,14 +12,16 @@ export default function privacy(){
     // }
 
     return(
+    <Fade>
     <section class="fixed bottom-0 left-50 z-10">
+    <Bounce>
     <div class="p-5">
         <div style={{background: "#caae77", color: "#fff"}} class="shadow-2xl flex items-center leading-none text-purple-600 rounded-full p-2 text-sm">
             <h1 style={{color: "#fff"}}>
                 <FontAwesomeIcon class="inline-flex h-3 pl-3" icon={faBell} />
                 <span style={{letterSpacing: "3px", fontWeight: "bold"}} class="inline-flex rounded-full h-6 pl-2 justify-center items-center">PRIVACY NOTICE&nbsp;&mdash;</span>
             </h1>
-            <h2 class="flex px-2">
+            <h2 style={{color: "#fff"}} class="flex px-2">
                 Read your Privacy Rights &amp; Our Terms
                 <Link class="pl-3 pr-3"to="/legal">here</Link>
             </h2>
@@ -28,6 +31,8 @@ export default function privacy(){
 
         </div>
     </div>
+    </Bounce>
   </section>
+  </Fade>
     )
 }
