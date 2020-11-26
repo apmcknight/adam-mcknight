@@ -20,7 +20,7 @@ export default function Footer() {
               <div class="pt-16 w-48">
                 <div class="text-xs uppercase text-gray-500 font-medium">Site Map</div>
                 <a class="my-3 block" href="/">Home <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/about">About <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/blog">Writing <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/projects">Projects <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="/contact">Contact</a> 
-                <a class="my-3 block" href="/uses">Uses<NewBadge/></a>
+                <a class="my-3 block" href="/blog/uses">Uses<NewBadge/></a>
               </div>
               
               <div class="pt-16 w-48">
