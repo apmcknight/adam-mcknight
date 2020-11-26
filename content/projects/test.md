@@ -7,6 +7,10 @@ project_photos:
 - "/content/images/sonja-punz-N47B_zibNGo-unsplash.jpg"
 live_project_link: ''
 project_github_repo: http://www.github.com/apmcknight/brew-track
+slug: test
+excerpt: BrewTrack is an ASP.NET app, with MVC and CRUD functionality. It was built
+  to allow bar owners, and restraunts track their orders. The project is open source
+  and contributions are welcomed to the development branch.
 
 ---
 BrewTrack is an ASP.NET app, with MVC and CRUD functionality. It was built to allow bar owners, and restraunts track their orders. The project is open source and contributions are welcomed to the development branch.
