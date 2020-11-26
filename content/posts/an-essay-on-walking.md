@@ -1,20 +1,86 @@
 ---
-date: 2019-07-31T22:43:31Z
-title: An Essay on Walking
+date: 2019-07-31T22:43:31.000+00:00
+title: Uses
 author: Robert Thoreau
 hero_image: "/content/images/heather-shevlin-3B_NrzTjajc-unsplash.jpg"
 
 ---
-Then it is that I appreciate the beauty and the glory of architecture, which itself never turns in, but forever stands out and erect, keeping watch over the slumberers.
+## Hardware
 
-No doubt temperament, and, above all, age, have a good deal to do with it. As a man grows older, his ability to sit still and follow indoor occupations increases. He grows vespertinal in his habits as the evening of life approaches, till at last he comes forth only just before sundown, and gets all the walk that he requires in half an hour.
+* Mid 2015 MacBook Pro - Laptop (_Soon to be a Lenovo S345 Chromebook with Debian Linux)_
+* Apple AirPods Gen 1 - Headphones
+* Solo Key Secure - USB 2FA Key
 
-But the walking of which I speak has nothing in it akin to taking exercise, as it is called, as the sick take medicine at stated hours,–as the swinging of dumb-bells or chairs; but is itself the enterprise and adventure of the day. If you would get exercise, go in search of the springs of life. Think of a man’s swinging dumb-bells for his health, when those springs are bubbling up in far-off pastures unsought by him!
+## Software:
 
-![](/content/images/kunj-parekh-H69EgivmCjE-unsplash.jpg)
+* **VS Code** - Primary IDE
+* **Atom** - Secondary IDE
+* **ZSH w/ Oh My ZSH** - Terminal Shell
+* **iTerm** - Primary Terminal
+* **MacOS** - OS
+* **LassPass** - Password Management
+* **Apple Music** - Music Service of Choice
+* **Brave** - Primary Browser
+* **Chrome Dev** - Development Browser
+* **Safari** - Development Browser for Safari
+* **Simulator** - Used to Test mobile sites & PWAs on various iOS devices.
+* **Notion** - Note Taking
+* **E Mail** Client - Spark
+* **VPN** - Proton VPN
 
-Moreover, you must walk like a camel, which is said to be the only beast which ruminates when walking. When a traveller asked Wordsworth’s servant to show him her master’s study, she answered, “Here is his library, but his study is out of doors.
+## Production Servers:
 
-Perhaps we should be more susceptible to some influences important to our intellectual and moral growth, if the sun had shone and the wind blown on us a little less; and no doubt it is a nice matter to proportion rightly the thick and thin skin. But methinks that is a scurf that will fall off fast enough,–that the natural remedy is to be found in the proportion which the night bears to the day, the winter to the summer, thought to experience. There will be so much the more air and sunshine in our thoughts. The callous palms of the laborer are conversant with finer tissues of self-respect and heroism, whose touch thrills the heart, than the languid fingers of idleness. That is mere sentimentality that lies abed by day and thinks itself white, far from the tan and callus of experience.
+For production applications that require a backend and or severs, I use the following VPS providers;
 
-When we walk, we naturally go to the fields and woods: what would become of us, if we walked only in a garden or a mall? Even some sects of philosophers have felt the necessity of importing the woods to themselves, since they did not go to the woods. “They planted groves and walks of Platanes,” where they took _subdiales ambulationes_ in porticos open to the air. Of course it is of no use to direct our steps to the woods, if they do not carry us thither. I am alarmed when it happens that I have walked a mile into the woods bodily, without getting there in spirit. In my afternoon walk I would fain forget all my morning occupations and my obligations to society. But it sometimes happens that I cannot easily shake off the village. The thought of some work will run in my head, and I am not where my body is,–I am out of my senses. In my walks I would fain return to my senses.
+* Digital Ocean
+* AWS
+* GoDaddy VPS
+
+The stack that’s used majority of the time is:
+
+* Ubuntu, LTS
+* Node
+* Custom Ghost CMS Deployment
+
+## Home Network:
+
+* Charter/Spectrum; Gig 950mbps - ISP
+* Switch, USG, and AP - Ubiquity Dream Machine
+
+## IOT Devices:
+
+* Philips Hue Lighting
+* Apple HomePod _(Yes, it could be smarter - but it sounds so good!)_
+* Amazon Echo 2
+* Amazon Echo Show
+* Amazon Echo Show 5
+* Roku Stick for Streaming (x2)
+
+## Every Day Use:
+
+* GEARONIC 21L Vintage Canvas Backpack
+* Navy Yetti Rambler with Chug Cap
+* Misfit Vapor Smartwatch
+* iPhone XS Max
+* Apple AirPods Gen 1
+* Nike Men's Revolution, Black/Grey
+* Nespresso Machine
+
+## Credit Cards & Wallets:
+
+* **Coach Card Holder** – Primary Wallet
+* **JP Morgan Chase, Sapphire Checking** – Primary Checking
+* **JP Morgan Chase, Business Checking** – Business Checking
+* **Starbucks Rewards Visa Card** – _Used for Subscription Services (Apple Music, Spectrum + Mobile, etc)_
+* **AMEX Platnium Card, Primary Card** – _Used for Grocries, Dining out, Eletric and Water bill, Insurance, etc._
+* **Amazon Prime, Business Card** – Primary Business Card
+* **Discover IT, Gold Card** – _Used for Grociries, Gas, or Amazon Purchases – depending on cashback catagroy for the quater._
+
+## Subscription Services:
+
+* **Spectrum Mobile**,
+* **Spectrum TV Silver**, HBO & Showtime,
+* **HBO Max** (free with TV Silver),
+* **Apple Music**,
+* **Netflix**,
+* **Cove Security** – Home Security System
