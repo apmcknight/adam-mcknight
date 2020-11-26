@@ -9,14 +9,17 @@ export default function BlogList() {
     return (
       <div class="w-7/12 h-auto ml-auto mr-auto mt-20">
         {projectData
-          .filter(projects => projects.node.frontmatter.title !== "")
+          .filter(projects => projects.node.frontmatter.project_title !== "")
           .map(projects => {
             return (
-              <Link class="blog-home-links" to={`/projects/${projects.node.fields.slug}`} key={projects.node.id}>
+              <Link class="blog-home-links" to={`/projects/${projects.node.frontmatter.slug}`} key={projects.node.id}>
                 <li class="shadow-lg p-14 m-10 rounded-lg">
-                    <h1>{projects.node.frontmatter.title}</h1>
-                    <h3>{projects.node.frontmatter.date}</h3>
-                    <p>{projects.node.excerpt}</p>
+                    <h1>
+                      {projects.node.frontmatter.project_title}
+                    </h1>
+                    <p>
+                      {projects.node.frontmatter.excerpt}
+                      </p>
                 </li>
               </Link>
             )

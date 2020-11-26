@@ -16,12 +16,10 @@ export default function useProjectData() {
                     }
                   }
               }
-            excerpt(pruneLength: 200)
-            fields {
+              excerpt
               slug
-            }
-            live_project_link
-            project_github_repo
+              live_project_link
+              project_github_repo
             }
           }
         }
