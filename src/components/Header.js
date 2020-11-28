@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import logo from "../../content/images/store-brand-primary.png"
+import logo from "../../content/images/a-black.png"
 
 
 export default function Header() {
@@ -10,7 +10,7 @@ export default function Header() {
       <div class="pt-5 mb-10 sm:mb-0 flex flex-row">
         <div>
           <Link to="/" class="text-2xl sm:text-center no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold">
-            <img class="h-5 w-15 pr-5  self-left" src={logo} />
+            <img class="h-10 w-30 pr-5  self-left" src={logo} />
           </Link>
         </div>
       </div>
@@ -22,7 +22,7 @@ export default function Header() {
         <Link to="/blog/" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">Writing</Link>
         <Link to="/projects/" class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Projects</Link>
         <Link to="/contact" class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Contact</Link>
-        <Link to="/shop/" class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Shop</Link>
+        <Link to="http://store.mcknight.digital" class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Shop</Link>
         </div>
 
       </div>
