@@ -1,4 +1,14 @@
 ---
 label: license
 hide_body: false
-fields: []
+fields:
+- name: license_header
+  type: text
+  config:
+    required: false
+  label: License Header
+- name: license_subheader
+  type: text
+  config:
+    required: false
+  label: License Subheader
