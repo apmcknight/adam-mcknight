@@ -13,7 +13,7 @@ sections:
   path: content/data/info.json
   label: About
 - type: document
-  path: license.json
+  path: content/data/license.json
   label: License
 - type: directory
   path: content/projects
