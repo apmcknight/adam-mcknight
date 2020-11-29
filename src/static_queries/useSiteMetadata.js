@@ -24,6 +24,11 @@ export default function useSiteMetadata() {
             home_header
             home_content_header
           }
+          licenseData{
+            license_header
+            license_subheader
+            license_body
+          }
         }
       }
     }

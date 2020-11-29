@@ -22,7 +22,7 @@ export default function Header() {
         <Link to="/blog/" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">Writing</Link>
         <Link to="/projects/" class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Projects</Link>
         <Link to="/contact" class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Contact</Link>
-        <Link to="http://store.mcknight.digital" class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Shop</Link>
+        <Link target="_blank" to="http://store.mcknight.digital" class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Shop</Link>
         </div>
 
       </div>
