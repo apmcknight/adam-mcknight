@@ -12,6 +12,10 @@ sections:
 - type: document
   path: content/data/info.json
   label: About
+- type: document
+  path: license.json
+  label: License
+  match: "**/*"
 - type: directory
   path: content/projects
   label: Projects
