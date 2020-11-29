@@ -12,3 +12,12 @@ fields:
   config:
     required: false
   label: License Subheader
+- name: license_content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: License Content
