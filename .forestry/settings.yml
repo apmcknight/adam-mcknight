@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: content/data/license.json
-  label: License
 - type: heading
   label: Pages
 - type: document
@@ -15,6 +12,9 @@ sections:
 - type: document
   path: content/data/info.json
   label: About
+- type: document
+  path: content/data/license.json
+  label: License
 - type: directory
   path: content/projects
   label: Projects
