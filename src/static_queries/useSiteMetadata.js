@@ -18,13 +18,17 @@ export default function useSiteMetadata() {
             description
             background_color
           }
+          licenseData {
+            license_header
+            license_subheader
+            license_content
+          }
           homeData {
             home_content
             home_content_1
             home_header
             home_content_header
           }
-          
         }
       }
     }

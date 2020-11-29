@@ -3,7 +3,7 @@ import useSiteMetaData from "../static_queries/useSiteMetadata"
 import PrivacyAlertBar from "../components/privacyAlert"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import Logo from "../../content/images/logo-primary.png"
+import Logo from "../../content/images/a-black.png"
 
 export default function License() {
   const { licenseData } = useSiteMetaData()
@@ -20,7 +20,7 @@ export default function License() {
 
       <section class="mt-10 mb-32">
         <div className="text-justify align-content-center">
-          <p class="about-header mt-52 ml-9 mb-10 h-auto w-4/5 lg:w-2/4 ml-auto mr-auto" dangerouslySetInnerHTML={{__html: licenseData.license_body}}></p>
+          <p class="about-header mt-52 ml-9 mb-10 h-auto w-4/5 lg:w-2/4 ml-auto mr-auto" dangerouslySetInnerHTML={{__html: licenseData.license_content}}></p>
         </div>
       </section>
 
