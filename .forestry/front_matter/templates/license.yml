@@ -1,4 +1,23 @@
 ---
 label: license
 hide_body: true
-fields: []
+fields:
+- name: license_header
+  type: text
+  config:
+    required: false
+  label: License Header
+- name: license_body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: License Body
+- name: license_subheader
+  type: text
+  config:
+    required: false
+  label: License Subheader
