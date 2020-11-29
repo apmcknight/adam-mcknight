@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/data/license.json
   label: License
-  match: "**/*"
 - type: heading
   label: Pages
 - type: document
