@@ -21,5 +21,3 @@ fields:
   config:
     required: false
   label: License Subheader
-pages:
-- content/data/license.json
