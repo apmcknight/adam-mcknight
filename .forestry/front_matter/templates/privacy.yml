@@ -1,4 +1,23 @@
 ---
 label: Privacy
 hide_body: true
-fields: []
+fields:
+- name: privacy_header
+  type: text
+  config:
+    required: false
+  label: Privacy Header
+- name: privacy_subheader
+  type: text
+  config:
+    required: false
+  label: Privacy Subheader
+- name: privacy_content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Privacy Content
