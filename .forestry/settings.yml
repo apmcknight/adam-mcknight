@@ -26,11 +26,9 @@ sections:
 - type: document
   path: content/data/privacy.json
   label: Privacy
-  match: "**/*"
 - type: document
   path: content/data/links.json
   label: Social Links
-  match: "**/*"
 - type: heading
   label: Content
 - type: directory
