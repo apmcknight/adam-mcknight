@@ -1,4 +1,39 @@
 ---
 label: Social Media Links
 hide_body: true
-fields: []
+fields:
+- name: socialMediaLink_header
+  type: text
+  config:
+    required: false
+  label: Page Header
+- name: socialMediaLink_title_0
+  type: text
+  config:
+    required: false
+  label: Social Link 1 Title
+- name: socialMediaLink_link_0
+  type: text
+  config:
+    required: false
+  label: Social Link 1 URL
+- name: socialMediaLink_title_1
+  type: text
+  config:
+    required: false
+  label: Social Link 2 Title
+- name: socialMediaLink_link_1
+  type: text
+  config:
+    required: false
+  label: Social Link 2 URL
+- name: socialMediaLink_title_2
+  type: text
+  config:
+    required: false
+  label: Social Link 3 Title
+- name: socialMediaLink_link_2
+  type: text
+  config:
+    required: false
+  label: Social Link 3 URL
