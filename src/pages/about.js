@@ -3,7 +3,7 @@ import useSiteMetaData from "../static_queries/useSiteMetadata"
 import PrivacyAlertBar from "../components/privacyAlert"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import Logo from "../../content/images/logo-primary.png"
+import Logo from "../../content/images/a-black.png"
 
 export default function Info() {
   const { infoData } = useSiteMetaData()

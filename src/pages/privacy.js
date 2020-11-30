@@ -5,7 +5,7 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Logo from "../../content/images/a-black.png"
 
-export default function License() {
+export default function Privacy() {
   const { privacyData } = useSiteMetaData()
   return (
     <main>
