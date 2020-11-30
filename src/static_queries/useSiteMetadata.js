@@ -23,6 +23,20 @@ export default function useSiteMetadata() {
             license_subheader
             license_content
           }
+          privacyData {
+            privacy_header
+            privacy_subheader
+            privacy_content
+          }
+          socialMediaLinkData {
+            socialMediaLink_header
+            socialMediaLink_title_0
+            socialMediaLink_link_0
+            socialMediaLink_title_1
+            socialMediaLink_link_1
+            socialMediaLink_title_2
+            socialMediaLink_link_2
+          }
           homeData {
             home_content
             home_content_1

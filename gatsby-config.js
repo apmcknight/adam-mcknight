@@ -2,6 +2,8 @@ const config = require("./config.json")
 const infoData = require("./content/data/info.json")
 const homeData = require("./content/data/home.json")
 const licenseData = require("./content/data/license.json")
+const privacyData = require("./content/data/privacy.json")
+const socialMediaLinkData = require("./content/data/links.json")
 
 module.exports = {
   //this makes the site config available to forestry cms
@@ -14,7 +16,9 @@ module.exports = {
     primaryColor: config.primary_color,
     infoData: infoData,
     homeData: homeData,
-    licenseData: licenseData
+    licenseData: licenseData,
+    privacyData: privacyData,
+    socialMediaLinkData: socialMediaLinkData
   },
   plugins: [
     "gatsby-plugin-sass",
