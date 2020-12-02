@@ -21,14 +21,10 @@ export default function privacy(){
                     <h1 style={{color: "#fff"}}>
                         <FontAwesomeIcon class="inline-flex h-3 ml-5 mr-2" icon={faBell} />
                         
-                        <span style={{letterSpacing: "3px", fontWeight: "bold"}} class="inline-flex sm:h-3 lg:h-6 pl-2 justify-center items-center">PRIVACY NOTICE&nbsp;&mdash;</span>
+                        <span style={{letterSpacing: "3px", fontWeight: "bold"}} class="inline-flex sm:h-3 lg:h-6 pl-2 pr-5 justify-center items-center">PRIVACY NOTICE</span>
                     </h1>
-                    <h2 style={{color: "#fff"}} class="flex px-2">
-                        Read our policies
-                        <Link class="pl-3 pr-3"to="/legal">here</Link>
-                    </h2>
                     
-                    {/* Figure out how to create a onClick event that will close the notification. React States is probably your best bet. */}
+                    {/* Figure out how to create a onClick event that will close the notification. React States is probably your best bet. And how to have it fold otu on hover to show a link to click*/}
                     <FontAwesomeIcon style={{color: "#fff"}}class="absolute right-4 top-4 w-5" icon={faTimesCircle} />
 
                 </div>

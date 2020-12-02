@@ -36,11 +36,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div class="bg-gray-100 pt-2 ">
-          <div class="flex pb-5 px-3 m-auto pt-5 border-t text-gray-800 text-sm flex-col
-              md:flex-row max-w-6xl">
+        <div class="bg-gray-100 pt-10 pb-5 text-center ">
+          <div class="text-gray-800 text-sm h-10 w-auto ml-auto mr-auto">
               <div class="mt-2">© Copyright 2020, Adam McKnight &mdash; All Rights Reserved.</div>
-              <a class="my-3 block" href="https://www.mcknight.digital">Built by mcknight.digital</a> 
           </div>
         </div>
      </div>
