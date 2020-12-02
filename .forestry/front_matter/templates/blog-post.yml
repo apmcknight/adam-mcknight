@@ -37,5 +37,6 @@ fields:
   default: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
 pages:
 - content/posts/an-essay-on-walking.md
+- content/posts/instagram-archive.md
 - content/posts/song-of-myself.md
 - content/posts/sunflower-sutra.md
