@@ -21,7 +21,13 @@ export default function SocialLinks() {
 
       <section class="mt-10 mb-32">
         <div className="text-justify align-content-center">
-          <Link target="_blank" to={socialMediaLinkData.socialMediaLink_link_0}  class="about-header mt-52 ml-9 mb-10 h-auto w-4/5 lg:w-2/4 ml-auto mr-auto" dangerouslySetInnerHTML={{__html: socialMediaLinkData.socialMediaLink_title_0}}></Link>
+          <Link target="_blank" to={socialMediaLinkData.socialMediaLink_link_0}  class="about-header mt-52 ml-9 mb-10 h-auto w-4/5 lg:w-2/4 ml-auto mr-auto">
+            <button
+            dangerouslySetInnerHTML={{__html: socialMediaLinkData.socialMediaLink_title_0}}
+            class="btn"
+            >
+            </button>
+          </Link>
         </div>
       </section>
 

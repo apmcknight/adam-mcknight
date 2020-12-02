@@ -6,6 +6,7 @@ import HeroImage from '../../content/images/hero.png'
 import HomeContent from '../components/homeContent'
 import useSiteMetaData from "../static_queries/useSiteMetadata"
 import Signature from "../../content/images/signature-black.png"
+import { Fade, Slide } from "react-awesome-reveal"
 
 export default function Home(props) {
   const { homeData } = useSiteMetaData()
@@ -19,13 +20,14 @@ export default function Home(props) {
               
 
               <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-                <div class="sm:text-center lg:text-left">
+	    <Fade triggerOnce duration={2000}>
+	    	<div class="sm:text-center lg:text-left">
                   <img class="h-40 w-50" src={Signature}></img>
-
                   <p dangerouslySetInnerHTML={{__html: homeData.home_header}} class="tracking-tight font-extrabold sm:text-5xl md:text-6xl mt-10" style={{fontSize: "2.5em"}}>
                   </p>
                    
                 </div>
+	    	</Fade>
               </main>
             </div>
           </div>

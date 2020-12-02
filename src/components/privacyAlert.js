@@ -29,7 +29,7 @@ export default function privacy(){
                     </h2>
                     
                     {/* Figure out how to create a onClick event that will close the notification. React States is probably your best bet. */}
-                    <FontAwesomeIcon style={{color: "#000"}}class="absolute right-4 top-4 w-5" icon={faTimesCircle} />
+                    <FontAwesomeIcon style={{color: "#fff"}}class="absolute right-4 top-4 w-5" icon={faTimesCircle} />
 
                 </div>
             </div>
