@@ -1,6 +1,6 @@
 ---
 slug: "/projects/covid-symptom-tracker"
-project_title: ''
+project_title: COVID Symptom Tracker
 project_photos:
 - "/content/images/sonja-punz-N47B_zibNGo-unsplash.jpg"
 live_project_link: http://symptomkiosk.netlify.app/
