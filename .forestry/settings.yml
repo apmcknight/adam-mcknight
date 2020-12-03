@@ -31,6 +31,14 @@ sections:
   new_doc_ext: md
   templates:
   - blog-post
+- type: directory
+  path: content/projects
+  label: Project Posts
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - projects
 - type: document
   path: content/data/authors.yaml
   label: Author List
