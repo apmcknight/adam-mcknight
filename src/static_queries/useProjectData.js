@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery } from "gatsby"
 
 export default function useProjectData() {
-  const data = useStaticQuery(graphql`
+  const projectData = useStaticQuery(graphql`
     query getProjectData {
       allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }) {
         edges {
@@ -9,12 +9,12 @@ export default function useProjectData() {
             id
             frontmatter {
               project_title
-                project_photos {
-                  childImageSharp {
-                    fluid( maxWidth: 800 ) {
-                      ...GatsbyImageSharpFluid
-                    }
+              project_photos{
+                childImageSharp {
+                  fluid( maxWidth: 800 ) {
+                    ...GatsbyImageSharpFluid
                   }
+                }
               }
               excerpt
               slug
@@ -26,5 +26,5 @@ export default function useProjectData() {
       }
     }
   `)
-  return data.allMarkdownRemark.edges
+  return projectData.allMarkdownRemark.edges
 }

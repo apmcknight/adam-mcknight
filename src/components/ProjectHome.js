@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 import blogListStyles from "../styles/components/bloglist.module.scss"
 import useProjectData from "../static_queries/useProjectData"
 
-export default function BlogList() {
+export default function ProjectList() {
   const projectData = useProjectData()
-  function renderBlogData() {
+  function renderProjectData() {
     return (
       <div class="w-7/12 h-auto ml-auto mr-auto mt-20">
         {projectData
@@ -29,7 +29,7 @@ export default function BlogList() {
   }
   return (
     <section>
-      <ul className={blogListStyles.list}>{renderBlogData()}</ul>
+      <ul className={blogListStyles.list}>{renderProjectData()}</ul>
     </section>
   )
 }
