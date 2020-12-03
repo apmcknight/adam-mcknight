@@ -37,5 +37,3 @@ fields:
     schema:
       format: markdown
   label: excerpt
-pages:
-- content/projects/covid-symptom-tracker.md

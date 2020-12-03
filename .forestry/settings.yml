@@ -15,14 +15,6 @@ sections:
 - type: document
   path: content/data/license.json
   label: License
-- type: directory
-  path: content/projects
-  label: Projects
-  create: documents
-  match: "**/*"
-  new_doc_ext: md
-  templates:
-  - projects
 - type: document
   path: content/data/privacy.json
   label: Privacy
